@@ -1,0 +1,254 @@
+body{
+    background-color: #ffffff;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'robota', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+h2{
+    font-size: 2rem;
+}
+
+
+ul li a i {
+    font-size: 1.5rem;
+}
+
+ul{
+    margin-right: 5rem;
+}
+
+ul li{
+    padding: 5px;
+}
+
+ul li a{
+    font-size: 1.1rem;
+    color: var(--First-color);
+}
+
+:root{
+    --First-color: #222831;
+    --Second-color: #393e46;
+    --Third-color: #00adb5;
+    --Fourth-color: #eeeeee;
+}
+
+a:hover{
+    color: var(--Third-color);
+}
+
+.active a:first-child{
+    color: var(--Third-color);
+}
+
+.header{
+    background-color: var(--Fourth-color);
+    border-bottom: 1px solid var(--Second-color);
+    padding: 1.2rem;
+}
+
+.logo{
+    margin-left: 5rem;
+    width: 200px;
+}
+
+/* Intro Section */
+
+.intro{
+    padding: 2rem;
+}
+
+.--intro-heading{
+    margin-top: 5.5rem;
+    line-height: 1.2;
+    color: var(--First-color);
+    font-weight: bold;
+}
+
+.btn{
+    background-color: var(--Third-color);
+    border-radius: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 0px;
+    color: white;
+    transition: background-color 2s;
+}
+
+.btn:hover{
+    background-color: #1ED1FD;
+    color: wheat;
+}
+
+hr{
+    border-bottom: 5px dotted var(--Third-color);
+    width: 5%;
+}
+
+
+
+
+/* My Skills  */
+
+
+.my-skill{
+    background-color: var(--Fourth-color);
+    padding: 50px 0px 50px 0px;
+}
+
+.skill-tagline{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skill-heading{
+    color: var(--First-color);
+    font-weight: bold;
+}
+
+.skill-heading-tagline{
+    color: var(--Second-color);
+}
+
+
+
+.my-skill-about{
+    color: var(--Third-color);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.my-skill-content{
+    color: var(--First-color);
+    font-size: 1rem;
+    line-height: 2;
+}
+
+
+/* icons  */
+
+.icons{
+    margin: 5rem;
+    text-align: center;
+}
+
+.icon{
+    font-size: 6rem;
+}
+
+.fa-laptop-code{
+    color: var(--Third-color);
+}
+
+.fa-file-code{
+    color: green;
+}
+
+.fa-wordpress{
+    color: var(--Third-color);
+}
+
+.icon-p{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+} 
+
+
+/* Blog Section  */
+
+
+
+.blog{
+    margin: 100px 0px 100px 0px;
+}
+
+.blog-head{
+    text-align: center;
+}
+
+.heading-blog{
+    color: var(--First-color);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.blog-row{
+    margin: 50px 0px 50px 0px;
+}
+
+
+/* Footer Section  */
+
+.footer{
+    background-color: var(--First-color);
+    color: var(--Fourth-color);
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Portfolio Section CSS  */
+
+.portfolio{
+    padding: 80px;
+}
+
+.portfolio-head{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.portfolio-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio-tagline{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+.portfolio-img{
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-heading-two{
+    color: var(--Third-color);
+    font-size: 2rem;
+}
+
+.portfolio-content{
+    line-height: 2;
+}
+
+
+
+
+/* Portfolio Recent Projects  */
+
+.portfolio-recent-projects{
+    padding: 80px;
+}
+
+.portfolio-heading-recent-projects{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
+
+.portfolio-items-row{
+    margin-bottom: 50px;
+}
+
